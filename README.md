@@ -19,22 +19,24 @@ Database: MongoDB Atlas
 Authentication: Google OAuth2
 Documentation: Swagger + Springdoc OpenAPI
 Build Tool: Maven
-,,,
+
 🗂️ PROJECT STRUCTURE
 
 Joblisting/
-├── src/main/java/com/yash/Joblisting/
-│ ├── controller/ → MVC & REST Controllers
-│ ├── model/ → Data Models (Post.java)
-│ ├── Repository/ → MongoDB and Search Repositories
-│ ├── SecurityConfig.java → OAuth2 + Security Setup
-│ └── JoblistingApplication.java → Main Class
-├── src/main/resources/
-│ ├── application.properties → DB & OAuth2 Configuration
-│ └── /WEB-INF/views/ → JSP Pages (home.jsp, findJob.jsp, registerJob.jsp)
-├── pom.xml
-└── README.txt
-'''
+|-- src/
+|   |-- main/
+|   |   |-- java/com/yash/Joblisting/
+|   |   |   |-- controller/        -> MVC & REST Controllers
+|   |   |   |-- model/             -> Data Models (Post.java)
+|   |   |   |-- repository/        -> MongoDB and Search Repositories
+|   |   |   |-- security/          -> OAuth2 + Security Setup
+|   |   |   \-- JoblistingApplication.java -> Main Class
+|   |   \-- resources/
+|   |       |-- application.properties     -> DB & OAuth2 Configuration
+|   |       \-- WEB-INF/views/             -> JSP Pages (home.jsp, findJob.jsp, registerJob.jsp)
+|-- pom.xml
+\-- README.txt
+
 ⚙️ SETUP INSTRUCTIONS
 
 Step 1: Clone the Repository
@@ -87,4 +89,4 @@ Email: mathuryash407@gmail.com
 
 GitHub: https://github.com/mathur407yash
 
-Would you like me to now
+
