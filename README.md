@@ -19,7 +19,7 @@ Database: MongoDB Atlas
 Authentication: Google OAuth2
 Documentation: Swagger + Springdoc OpenAPI
 Build Tool: Maven
-
+,,,
 🗂️ PROJECT STRUCTURE
 
 Joblisting/
@@ -34,7 +34,7 @@ Joblisting/
 │ └── /WEB-INF/views/ → JSP Pages (home.jsp, findJob.jsp, registerJob.jsp)
 ├── pom.xml
 └── README.txt
-
+'''
 ⚙️ SETUP INSTRUCTIONS
 
 Step 1: Clone the Repository
